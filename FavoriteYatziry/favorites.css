@@ -1,0 +1,47 @@
+body {
+  background-color: coral;
+  align-items: center;
+ 
+}
+
+
+
+
+h1 {
+    color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.One {
+    background-color: rgba(144, 72, 46, 0.233);
+    color:aquamarine
+}
+
+.Two  {
+     color:crimson
+
+}
+
+#Three  {
+    color: rgb(17, 17, 179);
+    text-align: center;
+   
+
+}
+
+#fourth {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+ol  {
+    text-align:center;
+    align-content: center;
+
+}
