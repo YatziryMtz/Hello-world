@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://www.teahub.io/photos/full/68-684961_cute-stationery-wallpaper-hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+     }
+  
+h1 {
+  color: #B92B30 ;
+}
+h2 {
+  color:#B92B30;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+          }
+.card {
+    background-color: #F1E3E6;
+    border: 2px solid;
+    border-color:lightpink ;
+    border-radius: 20px ; 
+    box-shadow: 10px 10px #ebd8da;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    min-height: 200px;
+    padding: 30px;
+      }
+.username {
+     margin: 5px;
+     min-width: 15px;
+          }
+.password {
+    margin: 5px;
+    min-width: 15px;
+    padding: 10px;
+          }
+a {
+  color: rgb(57, 25, 238);
+}          
+ button { 
+  margin: 5px;
+  min-width: 15px;
+  align-self: center;
+        }
+button:active {
+  background-color:rgb(57, 25, 238) ;
+}
