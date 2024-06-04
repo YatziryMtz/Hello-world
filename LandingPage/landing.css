@@ -5,9 +5,15 @@ color:cadetblue;
 
 .hero {
 
-    background-image: url("");
+    background-image: url("https://www.assegur.com/totmagazine/wp-content/uploads/2021/01/top-6-peliculas-de-viajes-que-te-inspiraran-para-viajar-por-el-mundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: ;
-    
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items:center;
+    text-align: start;
+
 }
