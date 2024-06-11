@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Invoice Generator</h1>
+        <form id="invoiceForm">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" required>
+
+            <label for="itemDescription">Item Description:</label>
+            <input type="text" id="itemDescription" required>
+
+            <label for="itemQuantity">Quantity:</label>
+            <input type="number" id="itemQuantity" required>
+
+            <label for="itemPrice">Unit Price:</label>
+            <input type="number" id="itemPrice" required>
+
+            <button type="button" onclick="generateInvoice()">Generate Invoice</button>
+        </form>
+
+        <div id="invoice" class="hidden">
+            <h2>Invoice</h2>
+            <p id="invoiceCustomerName"></p>
+            <p id="invoiceDescription"></p>
+            <p id="invoiceQuantity"></p>
+            <p id="invoicePrice"></p>
+            <p id="invoiceTotal"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

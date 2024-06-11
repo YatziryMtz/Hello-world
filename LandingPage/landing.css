@@ -18,7 +18,7 @@ color:cadetblue;
 
 }
 
- .btn-primary {
+.btn-primary {
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -26,13 +26,15 @@ color:cadetblue;
     margin-right: 80px;
     margin-bottom: 30px;
 }
-h5 {
-    padding-top: 5px;
+
+.custom-width {
+    width: 30%
+ 
 }
 
-.card-img-top {
-
-    height: 30vh;
+.custom-center {
+    text-align: center;
 }
-
-
+.custom-color {
+  background-color:
+}
