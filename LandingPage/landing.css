@@ -26,15 +26,13 @@ color:cadetblue;
     margin-right: 80px;
     margin-bottom: 30px;
 }
-
-.custom-width {
-    width: 30%
- 
+#position {
+    padding: 30px;
+   
 }
-
-.custom-center {
-    text-align: center;
+.form-label[data-id="1"] {
+    padding-top: 10px;
 }
-.custom-color {
-  background-color:
+#margin {
+    text-align: right;
 }
